@@ -1,0 +1,105 @@
+* {
+  list-style: none;
+}
+
+.body {
+  /* background: linear-gradient(360deg, #222222 0%, rgba(0, 0, 0, 0) 100%), url(.jpg);
+    border-radius: 0px; */
+  background-color: darkgoldenrod;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.container {
+  margin-top: 50px;
+  display: flex;
+}
+
+.site-link {
+  padding-left: 250px;
+  text-decoration: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+
+  color: #ffffff;
+}
+
+.site-list {
+  display: flex;
+  margin-top: 50px;
+  padding-right: 250px;
+}
+
+#site-id {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 17px;
+  /* identical to box height, or 155% */
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #00d6b4;
+}
+
+.site-item + .site-item {
+  margin-left: 40px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 17px;
+  /* identical to box height, or 155% */
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #999999;
+}
+
+.site-container {
+  padding-top: 228px;
+}
+
+.site-h1 {
+  width: 440px;
+  padding-left: 450px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53px;
+  /* or 110% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.link {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  /* identical to box height, or 146% */
+
+  text-transform: uppercase;
+
+  color: #00d6b4;
+  text-decoration: none;
+  margin-left: 610px;
+  border: 2px solid #00d6b4;
+  width: 137px;
+  padding: 10px 20px;
+}
